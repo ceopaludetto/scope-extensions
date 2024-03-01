@@ -1,6 +1,6 @@
 {
 	"name": "scope-extensions",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"keywords": [
 		"typescript",
 		"let",
@@ -37,9 +37,9 @@
 			"default": "./dist/index.cjs"
 		}
 	},
-	"main": "dist/index.cjs",
-	"module": "dist/index.js",
-	"types": "dist/index.d.ts",
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
 	"files": [
 		"dist"
 	],

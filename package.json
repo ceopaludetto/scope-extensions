@@ -1,6 +1,17 @@
 {
 	"name": "scope-extensions",
-	"version": "1.0.0",
+	"version": "1.0.1",
+	"keywords": [
+		"typescript",
+		"let",
+		"also",
+		"run",
+		"apply",
+		"takeIf",
+		"takeUnless",
+		"kotlin",
+		"scope"
+	],
 	"bugs": {
 		"url": "https://github.com/ceopaludetto/scope-extensions/issues"
 	},

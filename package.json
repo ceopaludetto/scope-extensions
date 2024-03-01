@@ -1,0 +1,48 @@
+{
+	"name": "scope-extensions",
+	"version": "1.0.0",
+	"bugs": {
+		"url": "https://github.com/ceopaludetto/scope-extensions/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ceopaludetto/scope-extensions.git"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Carlos Eduardo",
+		"email": "ceo.paludetto@gmail.com",
+		"url": "https://www.github.com/ceopaludetto"
+	},
+	"sideEffects": true,
+	"type": "module",
+	"exports": {
+		"import": {
+			"types": "./dist/index.d.ts",
+			"default": "./dist/index.js"
+		},
+		"require": {
+			"types": "./dist/index.d.cts",
+			"default": "./dist/index.cjs"
+		}
+	},
+	"main": "dist/index.cjs",
+	"module": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsup --silent"
+	},
+	"devDependencies": {
+		"@types/bun": "latest",
+		"prettier": "^3.2.5",
+		"prettier-plugin-packagejson": "^2.4.12",
+		"tsup": "^8.0.2",
+		"typescript": "^5.3.3"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	}
+}

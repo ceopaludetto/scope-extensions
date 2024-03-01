@@ -1,0 +1,8 @@
+# modules
+node_modules
+
+# build artifacts
+dist
+
+# macOS
+.DS_Store
